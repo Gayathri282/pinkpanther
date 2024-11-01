@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Desigers';
+    src: url('/font/DESIB___.woff2') format('woff2'),
+         url('/font/DESIB___.woff') format('woff'),
+         url('/font/DESIB___.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9cad8;
+    font-family: 'Desigers', sans-serif;
+}
+nav{
+   
+    background: white;
+    margin-top: -16px;
+    padding: 0.8rem;
+
+}
+li{
+    display: inline-block;
+    width: 10%;
+}
+ul{
+    text-align: right;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Hero section */
+.home{
+    display: flex;
+    background-color: #f9cad8;
+    padding: 3rem;
+    justify-content: center;
+}
+.hero-image{
+    height: 450px;
+}
+h1{
+    color: white;
+    font-size: 7rem;
+    text-transform: uppercase;
+}
+
+/* About section */
+.about{
+    background-color: #F0A0B9;
+    text-align: center;
+    padding: 3rem;
+    padding-bottom: 0;
+}
+h3{
+  color: white;
+}
+p{
+
+    color: white;
+    margin-top: 3rem;
+}
+.inspector{
+    height: 250px;
+}
+
+
+/* Footer */
+footer{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.paw{
+    height: 2rem;
+}
